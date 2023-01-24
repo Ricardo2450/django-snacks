@@ -8,20 +8,20 @@ class HomePageView(TemplateView):
         context = super().get_context_data(**kwargs)
         context['snacks'] = [
             {
-                "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/SoilRake.jpg",
-                "title": "Rake",
-                "description": "Better than a shovel or a broom for leaves. Like a pitch fork but less pokey.",
-                "reference_url": "https://en.wikipedia.org/wiki/Rake_(tool)"
+                "image_url": "https://www.fritolay.com/sites/fritolay.com/files/chesters-fries-flamin-hot.png",
+                "title": "Hot Fries",
+                "description": "One of the best hot fries in the world",
+                "reference_url": "https://www.fritolay.com/brands/chesters-snacks"
             }, {
-                "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Soup_Spoon.jpg",
-                "title": "Spoon",
-                "description": "An eating utensil. Better for soup and cereal than a fork.",
-                "reference_url": "https://en.wikipedia.org/wiki/Spoon"
+                "image_url": "https://s7d2.scene7.com/is/image/hersheysassets/0_34000_00243_6_701_24305_010_Item_Front?fmt=webp-alpha&hei=908&qlt=75",
+                "title": "Mr. Goodbar",
+                "description": "Best chocolate bar around!",
+                "reference_url": "https://www.hersheyland.com/mrgoodbar"
             }, {
-                "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Spoon_Piknik_i_Parken_2017_%28175930%29.jpg/600px-Spoon_Piknik_i_Parken_2017_%28175930%29.jpg",
-                "title": "Spoon",
-                "description": "Spoon is also an American rock band from Austin, Texas.",
-                "reference_url": "https://en.wikipedia.org/wiki/Spoon_(band)"
+                "image_url": "https://www.nerdscandy.com/sites/default/files/2022-06/rainbow-rope-product-22.png",
+                "title": "Nerds rope",
+                "description": "Best candy on a rope that will have you wanting more",
+                "reference_url": "https://www.nerdscandy.com/nerds-rope"
             },
         ]
 
